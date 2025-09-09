@@ -1,17 +1,13 @@
-# AWS Project - Build a Full End-to-End Web Application with 7 Services | Step-by-Step Tutorial
+# AWS Project - Ride Hailing App 
 
-This repo contains the code files used in this [YouTube video](https://youtu.be/K6v6t5z6AsU).
+Web application for a unicorn ride-sharing service called Wild Rydes (from the original [Amazon workshop](https://aws.amazon.com/serverless-workshops)).  The app uses IAM, Amplify, Cognito, Lambda, API Gateway and DynamoDB, with code stored in GitHub and incorporated into a CI/CD pipeline with Amplify.
 
-## TL;DR
-We're creating a web application for a unicorn ride-sharing service called Wild Rydes (from the original [Amazon workshop](https://aws.amazon.com/serverless-workshops)).  The app uses IAM, Amplify, Cognito, Lambda, API Gateway and DynamoDB, with code stored in GitHub and incorporated into a CI/CD pipeline with Amplify.
+<img width="1043" height="512" alt="Screenshot 2025-09-09 at 12 00 49 PM" src="https://github.com/user-attachments/assets/c931b32f-d0b5-4ac2-b5bc-2fa1bfacad38" />
 
 The app will let you create an account and log in, then request a ride by clicking on a map (powered by ArcGIS).  The code can also be extended to build out more functionality.
 
-## Cost
-All services used are eligible for the [AWS Free Tier](https://aws.amazon.com/free/).  Outside of the Free Tier, there may be small charges associated with building the app (less than $1 USD), but charges will continue to incur if you leave the app running.  Please see the end of the YouTube video for instructions on how to delete all resources used in the video.
+<img width="1154" height="1216" alt="Screenshot 2025-09-09 at 12 01 05 PM" src="https://github.com/user-attachments/assets/e8d65ca8-c698-463b-bbe8-7ac14fb4b09a" />
 
-## The Application Code
-The application code is here in this repository.
 
 ## The Lambda Function Code
 Here is the code for the Lambda function, originally taken from the [AWS workshop](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-3/ ), and updated for Node 20.x:
